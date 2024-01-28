@@ -1,0 +1,6 @@
+Django
+djangorestframework
+django-cors-headers
+pika
+psycopg2
+psycopg2-binary
