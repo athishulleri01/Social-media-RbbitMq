@@ -45,7 +45,7 @@ def callback(ch, method, properties, body):
         product.title = data['title']
         product.image = data['image']
         product.save()
-        print("product_updated","///////////////")
+        print("product_updated","......................")
         
     elif properties.content_type =='product_deleted':
         product = Product.objects.get(id=data['id'])
